@@ -11,4 +11,4 @@ new_menus = ('bread', 'soup', 'pork curry', 'chicken', 'apple juice')
 
 print ('\nNew Menus are: \n')
 for new_menu in new_menus:
-    print (new_menu.title())
+    print (f'- {new_menu.title()}')
