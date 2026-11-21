@@ -6,6 +6,22 @@ five_words = {
     'dictionary' : 'dictionary\'s function is storing key - value pairs.'
 }
 
+word = 'variable'
+print (f"\n{word.title()}: \n\t{five_words['variable']}")
+
+word = 'string'
+print (f"{word.title()}: \n\t{five_words['string']}")
+
+word = 'int'
+print (f"{word.title()}: \n\t{five_words['int']}")
+
+word = 'loop'
+print (f"{word.title()}: \n\t{five_words['loop']}")
+
+word = 'dictionary'
+print (f"{word.title()}: \n\t{five_words['dictionary']}\n")
+
+
 for word, meaning in five_words.items():
     print (f'{word.title()}: ')
     print (f'\t{meaning.capitalize()}\n')
