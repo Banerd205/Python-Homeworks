@@ -8,6 +8,7 @@ while polling_active:
     responses[name] = fav_place
 
     repeat = input('Would you like to let another person respond? "yes" or "no": ')
+    
     if repeat == 'no':
         print ('Thanks')
         polling_active = False
